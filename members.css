@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    background-color: rgb(27,27,27);
+    
+} 
+#nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 80px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+#nav .logo{
+    padding:22px 20px;
+    height: 80px;
+    float:left;
+    font-size: 28px;
+    /* font-weight: bold; */
+    color:skyblue;
+    font-family:orpheus;
+    font-style: italic;
+
+}
+#nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#nav ul li a{
+    line-height: 80px;
+    color: #e2472f;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: optima;
+}
+#nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius:6px;
+}
+#nav ul li a.active{
+    background: #e2472f;
+    color:black;
+    border-radius: 6px;
+}
+.container{
+    display:flex;
+    margin-top: 8%;
+    justify-content: center;
+
+}
+.card{
+    background: white;
+    width:280px;
+    height:450px;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height:170px;
+    width:100%;
+    margin-bottom:15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.torry{
+    background-image: url(./images/torry2.jpeg);
+   background-color: lightgray;
+    background-size: 5cm;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100vh; */
+}
+
+
+.member-1{
+    background-image: url(./images/member1.jpg);
+   
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat; 
+} 
+
+.member-2{
+    background-image: url(./images/member2.jpg);
+   
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.member-3{
+    /* background-image: url(./images/member3.jpg); */
+   
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content1{
+    display:flex;
+    flex-direction: row;
+}
+.image1{
+    display: block;
+}
