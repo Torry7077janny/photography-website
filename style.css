@@ -90,5 +90,17 @@ body{
 }
  .content{
     margin-top: 0;
-    color:white;
- }   
+    color:aqua;
+    text-align:center;
+ }  
+ h1{
+    font-family:Optima;
+    font-size:30px;
+    color: black;
+    font-weight: 700;
+ }
+ p{
+    font-family: optima;
+    font-weight: 600;
+    font-size:20px;
+ }
