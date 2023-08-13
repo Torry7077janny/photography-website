@@ -12,6 +12,7 @@ body{
 } 
 #nav{
     position: fixed;
+    z-index: 100;
     top:0;
     left: 0;
     width:100%;
@@ -61,61 +62,46 @@ body{
     display:flex;
     margin-top: 8%;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
+
+
 .card{
     background: white;
     width:280px;
-    height:450px;
     margin:10px;
     border-radius: 15px;
 }
-
 .card-image{
     height:170px;
     width:100%;
     margin-bottom:15px;
     border-radius: 15px 15px 0 0;
-}
-
-.torry{
-    background-image: url(./images/torry2.jpeg);
-   background-color: lightgray;
-    background-size: 5cm;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* width: 100vh; */
-}
-
-
-.member-1{
-    background-image: url(./images/member1.jpg);
-   
-    background-size: cover;
-    background-position:top;
-    background-repeat: no-repeat; 
-} 
-
-.member-2{
-    background-image: url(./images/member2.jpg);
-   
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.member-3{
-    /* background-image: url(./images/member3.jpg); */
-   
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.content1{
-    display:flex;
-    flex-direction: row;
+    
 }
 .image1{
+ width:100%;
+ height: auto;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
     display: block;
+    text-align: center;
+    margin:20px 50px;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor:pointer;
+    transform: scale(1.03);
+    transition:all 1s ease;
 }
